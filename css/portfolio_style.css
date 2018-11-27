@@ -1,0 +1,89 @@
+body{
+    background-color: chartreuse;
+    height: 100%;
+    width: 100%;
+}
+
+/*-------------------------------------------------
+                 CAROUSEL STYLE
+-------------------------------------------------*/
+
+.carousel-container{
+    background-color: chartreuse;
+    padding-top: 100px;
+}
+
+/*centers and resizes image on carousel*/
+.container{
+    height: 550px;
+    width: 50%;
+    padding: 0 50px 0 50px
+}
+/*positions caption to the upper left of carousel*/
+.carousel-caption{
+    text-align: left;
+    top: 100px;
+    padding-left: 50px;
+    max-width: 200px;
+}
+
+.caption2{
+    position: absolute;
+    left: 740px;
+    top: 15px;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-variant: small-caps;
+    font-size:  40px;
+}
+
+/*------------------------------------------------
+                END CAROUSEL STYLE
+------------------------------------------------*/
+
+/*------------------------------------------------
+                    NAVIGATION
+------------------------------------------------*/
+
+.button-hover:hover{
+    background-color: chartreuse;
+    color: black; /*not working*/
+}
+
+/*------------------------------------------------
+                END NAVIGATION
+------------------------------------------------*/
+
+/*------------------------------------------------
+                    JUMBOTRON
+------------------------------------------------*/
+
+.jumbotron{
+    background: url("../img/Siem_Reap_Cambodia.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+/*------------------------------------------------
+                END JUMBOTRON
+------------------------------------------------*/
+
+/*can't get this to work yet*/
+@media (min-width: 500px){
+    h1{
+        position: relative;
+        right: 350px;
+    }
+}
+
+@media (max-width: 499px){
+    h1{
+        
+    }
+}
