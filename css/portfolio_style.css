@@ -9,13 +9,18 @@ body{
     width: 100%;
 }
 
+h4{
+    padding-top: 65px;
+    padding-bottom: 5px;
+}
+
 /*-------------------------------------------------
                  CAROUSEL STYLE
 -------------------------------------------------*/
 
 .carousel-container{
     background-color: chartreuse;
-    padding-top: 100px;
+    padding-top: 75px; /*pt-5 for bootstrap class didn't give enough padding*/
 }
 
 /*centers and resizes image on carousel*/
@@ -78,6 +83,18 @@ h1{
 }
 /*------------------------------------------------
                 END JUMBOTRON
+------------------------------------------------*/
+
+/*------------------------------------------------
+                CARD BUNDLE
+------------------------------------------------*/
+
+.card-container{
+    margin: 0 50px 0 50px;
+}
+
+/*------------------------------------------------
+                END CARD BUNDLE
 ------------------------------------------------*/
 
 /*can't get this to work yet*/
